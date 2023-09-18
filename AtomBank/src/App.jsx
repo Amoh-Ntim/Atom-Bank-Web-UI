@@ -2,6 +2,7 @@ import{ useState, useEffect } from 'react';
 import './App.css'
 import Navbar from "./components/Navbar Components/Navbar";
 import HamburgerMenu from './components/Navbar Components/HamburgerMenu';
+import HeroOne from './components/HeroSection Components/HeroOne';
 // "build": "vite build",
 function App() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -22,7 +23,11 @@ function App() {
   return (
     <div>
       {isSmallScreen ? <HamburgerMenu /> : <Navbar />}
+      <div>
+      <HeroOne/>
+      </div>
     </div>
+
   )
 }
 
