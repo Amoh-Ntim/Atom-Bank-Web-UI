@@ -1,7 +1,7 @@
 import{ useState, useEffect } from 'react';
 import './App.css'
-import Navbar from "./components/Navbar";
-import HamburgerMenu from './components/HamburgerMenu';
+import Navbar from "./components/Navbar Components/Navbar";
+import HamburgerMenu from './components/Navbar Components/HamburgerMenu';
 // "build": "vite build",
 function App() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);

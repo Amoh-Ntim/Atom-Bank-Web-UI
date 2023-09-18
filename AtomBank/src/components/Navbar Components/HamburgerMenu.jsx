@@ -29,6 +29,8 @@ const HamburgerMenu = () => {
             <li><a href="#" className="text-black-500 hover:text-blue-700">Pricing</a></li>
             <li><a href="#" className="text-black-500 hover:text-blue-700">Features</a></li>
             <li><a href="#" className="text-black-500 hover:text-blue-700">AboutUs</a></li>
+            <li><a href="#" className="text-black-500 hover:text-blue-700">Login</a></li>
+            <li><a href="#" className="text-black-500 hover:text-blue-700">Register</a></li>
             </ul>
           </div>
         )}
