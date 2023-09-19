@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar Components/Navbar";
 import HamburgerMenu from './components/Navbar Components/HamburgerMenu';
 import HeroOne from './components/HeroSection Components/HeroOne';
 import HeroTwo from './components/HeroSection Components/HeroTwo';
-// import HeroOne from './components/HeroSection Components/HeroOne';
+import Subscribe from './components/HeroSection Components/Subscribe';
 // "build": "vite build",
 function App() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -23,6 +23,8 @@ function App() {
     };
   }, []);
   return (
+    <>
+
     <div>
       {isSmallScreen ? <HamburgerMenu /> : <Navbar />}
       <div>
@@ -30,6 +32,8 @@ function App() {
       <HeroTwo />
       </div>
     </div>
+      <Subscribe />
+    </>
 
   )
 }
