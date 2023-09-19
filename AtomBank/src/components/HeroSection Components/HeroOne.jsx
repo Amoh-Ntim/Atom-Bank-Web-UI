@@ -2,7 +2,9 @@
 // import img2 from 'virtual:src/assets/image23.jpg';
 const HeroOne = () => {
   return (
-    <div className="flex justify-between sm: flex-col items-center  md:flex-row">
+    <div>
+
+    <div className="flex justify-between sm: flex-col items-center  md:flex-row ">
       <div className="flex flex-col  mt-16 md:w-1/2">
           <div className="text-5xl">
              <h2>Easy Way to </h2>
@@ -22,9 +24,33 @@ const HeroOne = () => {
            </p>
           </div>
       </div>
+      {/* Phone and Laptop images */}
       <div className="relative mt-16 md:w-1/2 ">
       <img className="w-full h-auto" src="/image23.jpg" alt="My Image" />
       <img className=" absolute top-0 left-0 ml-40" src="/image16.jpg" alt="My Image" />
+      </div>
+    </div>
+      {/* Black Background */}
+      <div className=" flex bg-black text-white mt-56 rounded-xl items-center justify-between hidden lg:flex flex-row">
+        <div className="flex  items-center">
+        <img className="mt-16 ml-20" src="/Group 7.png" alt="My Image" />
+         <div className="flex flex-col">
+           <h5 className="">Fast and secure cashless payments</h5>
+           <h6>Pay with AtomBank app,</h6>
+           <h6>online, and in stores, and get added speed</h6>
+           <h6> security</h6>
+         </div>
+        </div>
+
+     <div className="flex">
+      <img className="mt-16 mr-2" src="/Group 8.png" alt="My Image" />
+      <div className="flex flex-col mt-24 mr-32  justify-start">
+        <h5>Control over your account</h5>
+        <h6>Your bank account lets you easyly lock your </h6>
+        <h6>card in the app. and later reorder it with a tap of a</h6>
+        <h6> button.</h6>
+      </div>
+     </div>   
       </div>
     </div>
   )
