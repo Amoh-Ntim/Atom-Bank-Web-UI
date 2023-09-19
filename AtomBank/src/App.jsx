@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from "./components/Navbar Components/Navbar";
 import HamburgerMenu from './components/Navbar Components/HamburgerMenu';
 import HeroOne from './components/HeroSection Components/HeroOne';
+import HeroTwo from './components/HeroSection Components/HeroTwo';
 // import HeroOne from './components/HeroSection Components/HeroOne';
 // "build": "vite build",
 function App() {
@@ -26,6 +27,7 @@ function App() {
       {isSmallScreen ? <HamburgerMenu /> : <Navbar />}
       <div>
       <HeroOne />
+      <HeroTwo />
       </div>
     </div>
 

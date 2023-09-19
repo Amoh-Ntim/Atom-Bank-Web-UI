@@ -52,7 +52,10 @@ const HeroOne = () => {
       </div>
      </div>   
       </div>
+
     </div>
+
+
   )
 }
 
