@@ -1,11 +1,10 @@
 
 const Navbar = () => {
-    const imageUrl = 'https://www.istockphoto.com/search/2/image?phrase=green%20ball&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography&utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fgreen-ball&utm_term=green%20ball%3A%3A%3A';
   return (
     <div className="flex justify-between">
         <div className="flex">
            {/* logo */}
-           <img src={imageUrl}/>
+           <img  src="/Ellipse.png" alt="My Image" />
            <h5> <span className="font-bold">Atom</span>Bank</h5>
         </div>
 
