@@ -24,7 +24,10 @@ const HeroTwo = () => {
               <h6  className="text-gray-500">come true one by one. Open, manage and withdraw competitive</h6>
               <h6  className="text-gray-500"> interest savings without going to the bank.</h6>
               <div>
-               <h6  className="underline mb-8 text-green-400 hover:text-green-500"><a href="#">Learn more</a></h6>
+              <div className="flex justify-center">
+               <h6 className="underline mb-8 text-green-400 hover:text-green-500"><a href="#">Learn more</a></h6>
+               <span><h6 className="text-green-400 ml-4">{'->'}</h6></span>
+               </div>
               </div> 
           </div>
            <img src="/image 19.png"/>
@@ -36,7 +39,10 @@ const HeroTwo = () => {
             <h3 className="text-5xl mb-12">Costumable Debit Card</h3>
             <h6 className="text-gray-500">Choose a debit card design that suits you. Practically withdraw cash</h6>
             <h6 className="text-gray-500"> and transact worldwide.</h6>
+            <div className="flex justify-center">
             <h6 className="underline mb-8 text-green-400 hover:text-green-500"><a href="#">Learn more</a></h6>
+            <span><h6 className="text-green-400 ml-4">{'->'}</h6></span>
+            </div>
           </div>
           </div>
     </div>

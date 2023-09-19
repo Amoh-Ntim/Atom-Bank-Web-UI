@@ -21,6 +21,7 @@ const HeroOne = () => {
            </button>
            <p className="mt-2 ml-4">
              <span className="underline text-black-300 hover:text-black-700"><a href="#">See How It Works</a></span>
+             {'->'}
            </p>
           </div>
       </div>
