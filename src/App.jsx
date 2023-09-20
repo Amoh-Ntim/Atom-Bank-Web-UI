@@ -6,7 +6,8 @@ import HeroOne from './components/HeroSection Components/HeroOne';
 import HeroTwo from './components/HeroSection Components/HeroTwo';
 import Subscribe from './components/HeroSection Components/Subscribe';
 import BottomNav from './components/BottomNav/BottomNav';
-// "build": "vite build",
+
+// "build": "react-scripts --require postcss build",
 function App() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
