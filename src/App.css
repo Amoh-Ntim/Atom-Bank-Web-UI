@@ -41,7 +41,7 @@
   color: #888;
 }
 
-@media (max-width: 640px) { /* Adjust the breakpoint as needed */
+@media (max-width: 1536px) { /* Adjust the breakpoint as needed */
   .scale-100 {
     transform: scale(1); /* Original size */
   }
