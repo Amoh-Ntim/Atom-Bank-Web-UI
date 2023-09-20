@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+@media (max-width: 640px) { /* Adjust the breakpoint as needed */
+  .scale-100 {
+    transform: scale(1); /* Original size */
+  }
+  .scale-75 {
+    transform: scale(0.75); /* 75% of the original size */
+  }
+  .scale-50 {
+    transform: scale(0.5); /* 50% of the original size */
+  }
+  .scale-25 {
+    transform: scale(0.25); /* 25% of the original size */
+  }
+}
