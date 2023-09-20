@@ -9,7 +9,7 @@ const HeroTwo = () => {
               <h6>The best place to transact and save money. More organized finances no </h6>
               <h6>longer a discourse. Enjoy the life you want, without wasting time on</h6>
               <h6> unnecessary financial matters</h6>
-              <div className="flex mt-12 align-start xs:flex-col justify-center md:flex-row justify-start">
+              <div className="flex mt-12 align-start sm:flex-col justify-center md:flex-row justify-start">
               <img className="" src="/g4036.png" />
               <img className="" src="/Group.png" />
               </div>
