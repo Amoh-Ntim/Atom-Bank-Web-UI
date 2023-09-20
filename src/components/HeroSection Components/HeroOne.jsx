@@ -28,8 +28,8 @@ const HeroOne = () => {
       </div>
       {/* Phone and Laptop images */}
       <div className="relative mt-16 mb-16 md:w-1/2 xs:justify-center">
-      <img className="w-full h-auto" src="/image23.jpg" alt="My Image" />
-        <div className="sm:w-1/2 h-auto">
+      <img className="w-full h-auto " src="/image23.jpg" alt="My Image" />
+        <div className="sm:w-1/2 h-auto hidden md:block">
         <img className=" absolute top-0 left-0 ml-40" src="/image16.jpg" alt="My Image" />
         </div>
       </div>
