@@ -26,9 +26,11 @@ const HeroOne = () => {
           </div>
       </div>
       {/* Phone and Laptop images */}
-      <div className="relative mt-16 mb-16 md:w-1/2 xs:justify-center  transition-transform transform scale-25 sm:scale-50 md:scale-75 ml-40 lg:scale-100">
+      <div className="relative mt-16 mb-16 md:w-1/2 xs:justify-center">
       <img className="w-full h-auto" src="/image23.jpg" alt="My Image" />
-      <img className=" absolute top-0 left-0 " src="/image16.jpg" alt="My Image" />
+        <div className=" transition-transform transform scale-25 sm:scale-50 md:scale-75 ml-40 lg:scale-100">
+        <img className=" absolute top-0 left-0 " src="/image16.jpg" alt="My Image" />
+        </div>
       </div>
     </div>
       {/* Black Background */}
