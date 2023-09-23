@@ -24,12 +24,12 @@ const HamburgerMenu = () => {
           <div className="absolute top-0 right-0 mt-12 bg-white p-4 border border-gray-300 shadow-md">
             {/* Menu items go here */}
             <ul>
-            <li><a href="#" className="text-black-500 hover:text-blue-700">Services</a></li>
-            <li><a href="#" className="text-black-500 hover:text-blue-700">Pricing</a></li>
-            <li><a href="#" className="text-black-500 hover:text-blue-700">Features</a></li>
-            <li><a href="#" className="text-black-500 hover:text-blue-700">AboutUs</a></li>
-            <li><a href="#" className="text-black-500 hover:text-blue-700">Login</a></li>
-            <li><a href="#" className="text-black-500 hover:text-blue-700">Register</a></li>
+            <li><a href="#" className="text-black-500 hover:text-green-700">Services</a></li>
+            <li><a href="#" className="text-black-500 hover:text-green-700">Pricing</a></li>
+            <li><a href="#" className="text-black-500 hover:text-green-700">Features</a></li>
+            <li><a href="#" className="text-black-500 hover:text-green-700">AboutUs</a></li>
+            <li><a href="#" className="text-black-500 hover:text-green-700">Login</a></li>
+            <li><a href="#" className="text-black-500 hover:text-green-700">Register</a></li>
             </ul>
           </div>
         )}

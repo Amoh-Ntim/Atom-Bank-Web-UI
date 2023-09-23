@@ -13,8 +13,8 @@ const Subscribe = () => {
             className="px-4 py-2 mr-8 max-w-md border border-gray-300 rounded-l"
             placeholder="Enter your email..."
           />
-          <button className="px-4 py-2 bg-black text-white rounded-r">
-            Submit
+          <button className="px-4 py-2 bg-black  hover:bg-gray-800 text-white rounded-r">
+            Get Started
           </button>
         </div>
       </div>

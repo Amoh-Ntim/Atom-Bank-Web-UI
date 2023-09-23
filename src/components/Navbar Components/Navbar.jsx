@@ -10,10 +10,10 @@ const Navbar = () => {
 
         {/* Links */}
         <div className="space-x-8">
-        <a href="#" className="text-black-500 hover:text-blue-700">Services</a>
-        <a href="#" className="text-black-500 hover:text-blue-700">Features</a>
-        <a href="#" className="text-black-500 hover:text-blue-700">Pricing</a>
-        <a href="#" className="text-black-500 hover:text-blue-700">AboutUs</a>
+        <a href="#" className="text-black-500 hover:text-green-700">Services</a>
+        <a href="#" className="text-black-500 hover:text-green-700">Features</a>
+        <a href="#" className="text-black-500 hover:text-green-700">Pricing</a>
+        <a href="#" className="text-black-500 hover:text-green-700">AboutUs</a>
         </div>
 
         {/* Buttons */}
